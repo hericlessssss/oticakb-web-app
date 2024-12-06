@@ -92,7 +92,7 @@ const ContactForm = () => {
               >
                 <option value="">Selecione um assunto</option>
                 <option value="exam">Agendamento de exame</option>
-                <option value="purchase">Compra de lentes ou óculos</option>
+                <option value="purchase">Compra de lentes ou armações</option>
                 <option value="doubt">Dúvidas gerais</option>
               </select>
             </div>
