@@ -40,18 +40,18 @@ const Hero = () => {
               className="relative h-full bg-cover bg-center"
               style={{ backgroundImage: `url(${slide.image})` }}
             >
-              <div className="absolute inset-0 hero-slide-content flex items-center">
-                <div className="container mx-auto px-4">
-                  <div className="max-w-xl text-white">
-                    <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight">
+              <div className="absolute inset-0 hero-slide-content flex items-center justify-center md:justify-start">
+                <div className="container mx-auto px-4 text-center md:text-left">
+                  <div className="max-w-lg md:max-w-xl text-white">
+                    <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
                       {slide.title}
                     </h1>
-                    <p className="text-xl md:text-2xl mb-8 opacity-90">
+                    <p className="text-lg md:text-xl mb-6 opacity-90">
                       {slide.subtitle}
                     </p>
                     <a
                       href="https://wa.me/5561994070676"
-                      className="inline-block bg-white text-gray-900 px-8 py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                      className="inline-block bg-white text-gray-900 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                     >
                       Agende seu exame agora
                     </a>
