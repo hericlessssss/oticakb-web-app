@@ -35,7 +35,7 @@ const Header = () => {
           <div className="flex items-center">
             <img 
               src="https://i.imgur.com/c3uof0X.jpeg" 
-              alt="Ótica KB Logo" 
+              alt="Óticas KB Logo" 
               className="h-12 rounded-lg shadow-sm transition-transform duration-300 hover:scale-105" 
             />
           </div>

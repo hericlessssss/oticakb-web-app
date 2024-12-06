@@ -9,7 +9,7 @@ const Hero = () => {
   const slides = [
     {
       image: 'https://images.unsplash.com/photo-1550455491-9d15842c18f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      title: 'Exames de Vista Grátis!',
+      title: 'Exames de vista com desconto!',
       subtitle: 'Agende seu horário e cuide da sua saúde visual',
     },
     {

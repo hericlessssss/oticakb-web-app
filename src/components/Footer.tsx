@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Ótica KB</h3>
+            <h3 className="text-xl font-bold mb-4">Óticas KB</h3>
             <div className="space-y-2">
               <p className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2" />
@@ -57,7 +57,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Horário de Funcionamento</h3>
             <ul className="space-y-2">
-              <li>Segunda a Sexta: 9h às 18h</li>
+              <li>Segunda a Sexta: 8h às 18h</li>
               <li>Sábado: 9h às 13h</li>
               <li>Domingo: Fechado</li>
             </ul>
@@ -65,7 +65,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center space-y-2">
-          <p>&copy; {new Date().getFullYear()} Ótica KB. Todos os direitos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Óticas KB. Todos os direitos reservados.</p>
           <p>Desenvolvido por <strong>Labora Design</strong></p>
         </div>
 
