@@ -5,7 +5,7 @@ const Benefits = () => {
   const benefits = [
     {
       icon: <Eye className="w-12 h-12" />,
-      title: 'Exames de Vista Grátis',
+      title: 'Exames de vista com desconto',
       description: 'Realize seu exame com profissionais qualificados sem custo adicional',
     },
     {

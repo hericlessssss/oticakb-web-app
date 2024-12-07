@@ -25,7 +25,7 @@ const Hero = () => {
   ];
 
   return (
-    <section id="home" className="relative h-screen">
+    <section id="home" className="relative h-[100vh] md:h-screen">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         navigation
@@ -33,10 +33,6 @@ const Hero = () => {
         autoplay={{ delay: 5000, disableOnInteraction: false }}
         loop={true}
         className="h-full"
-        breakpoints={{
-          640: { slidesPerView: 1 },
-          1024: { slidesPerView: 1 },
-        }}
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
@@ -46,22 +42,20 @@ const Hero = () => {
               role="img"
               aria-label={slide.title}
             >
-              {/* Gradiente para texto mais legível */}
-              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent md:via-black/30 md:to-transparent" />
 
-              {/* Conteúdo do slide */}
-              <div className="absolute inset-0 flex items-center justify-center md:justify-start">
-                <div className="container mx-auto px-4 text-center md:text-left">
+              <div className="absolute inset-0 flex items-center">
+                <div className="container mx-auto px-4 md:px-6">
                   <div className="max-w-lg md:max-w-xl text-white">
-                    <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
+                    <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 leading-tight">
                       {slide.title}
                     </h1>
-                    <p className="text-lg md:text-xl mb-6 opacity-90">
+                    <p className="text-base md:text-lg lg:text-xl mb-4 md:mb-6 opacity-90">
                       {slide.subtitle}
                     </p>
                     <a
                       href="https://wa.me/5561994070676?text=Olá!%20Eu%20estou%20interessado(a)%20em%20agendar%20um%20exame%20de%20vista%20ou%20saber%20mais%20sobre%20os%20produtos.%20Poderia%20me%20ajudar%3F"
-                      className="inline-block bg-white text-gray-900 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+                      className="inline-block bg-white text-gray-900 px-6 py-3 md:px-8 md:py-4 rounded-full font-semibold hover:bg-gray-100 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-sm md:text-base"
                     >
                       Agende seu exame agora
                     </a>

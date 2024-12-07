@@ -1,10 +1,10 @@
-# Óticas KB - Landing Page
+# Ótica KB - Landing Page
 
-Landing page moderna e responsiva para a Óticas KB, desenvolvida com React e Tailwind CSS.
+Landing page moderna e responsiva para a Ótica KB, desenvolvida com React e Tailwind CSS.
 
 ## Descrição do Projeto
 
-Este projeto é uma landing page profissional para a Óticas KB, focada em proporcionar uma experiência premium aos usuários e otimizada para conversões. A página apresenta diversos recursos como slider de produtos, formulário de contato, seção de depoimentos e integração com WhatsApp.
+Este projeto é uma landing page profissional para a Ótica KB, focada em proporcionar uma experiência premium aos usuários e otimizada para conversões. A página apresenta diversos recursos como slider de produtos, formulário de contato, seção de depoimentos e integração com WhatsApp.
 
 ### Tecnologias Utilizadas
 
@@ -57,7 +57,7 @@ src/
 │   ├── Header.tsx     # Cabeçalho com navegação
 │   ├── Hero.tsx       # Seção principal com slider
 │   ├── Products.tsx   # Exibição de produtos
-│   ├── Benefits.tsx   # Vantagens da óticas
+│   ├── Benefits.tsx   # Vantagens da ótica
 │   ├── Testimonials.tsx # Depoimentos de clientes
 │   ├── InstagramFeed.tsx # Feed do Instagram
 │   ├── ContactForm.tsx  # Formulário de contato
