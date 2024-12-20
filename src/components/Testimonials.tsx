@@ -4,9 +4,9 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'Ana Silva',
+      name: 'Héricles Francisco',
       rating: 5,
-      comment: 'Atendimento excepcional! Os profissionais são muito atenciosos e os preços são justos.',
+      comment: 'Gostei demais do atendimento. Fui procurando um modelo em especifico mas acabei ficando um modelo Keliel Berg e não me arrependo. Top!',
     },
     {
       name: 'Carlos Santos',

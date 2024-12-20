@@ -10,17 +10,17 @@ const Benefits = () => {
     },
     {
       icon: <CreditCard className="w-12 h-12" />,
-      title: 'Parcelamento Facilitado',
+      title: 'Parcelamento facilitado',
       description: 'Parcele suas compras em até 10x sem juros',
     },
     {
       icon: <Truck className="w-12 h-12" />,
-      title: 'Entrega Rápida',
+      title: 'Entrega rápida',
       description: 'Receba seus óculos no prazo combinado',
     },
     {
       icon: <Headphones className="w-12 h-12" />,
-      title: 'Atendimento Personalizado',
+      title: 'Atendimento personalizado',
       description: 'Suporte especializado para melhor atender suas necessidades',
     },
   ];

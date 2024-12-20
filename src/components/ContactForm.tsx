@@ -29,7 +29,7 @@ const ContactForm = () => {
   return (
     <section id="contact" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8">Entre em Contato</h2>
+        <h2 className="text-3xl font-bold text-center mb-8">Entre em contato</h2>
         <div className="max-w-2xl mx-auto">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
