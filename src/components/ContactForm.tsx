@@ -14,7 +14,6 @@ const ContactForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically handle the form submission
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 3000);
   };
@@ -30,7 +29,7 @@ const ContactForm = () => {
     <section id="contact" className="py-16 bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8">Entre em contato</h2>
-        <div className="max-w-2xl mx-auto">
+        <div className="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-lg">
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
@@ -41,7 +40,7 @@ const ContactForm = () => {
                 id="name"
                 name="name"
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
+                className="mt-2 block w-full min-w-[300px] rounded-lg border border-gray-300 shadow-sm focus:border-black focus:ring-black p-4 text-base"
                 value={formData.name}
                 onChange={handleChange}
               />
@@ -57,7 +56,7 @@ const ContactForm = () => {
                   id="email"
                   name="email"
                   required
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
+                  className="mt-2 block w-full min-w-[300px] rounded-lg border border-gray-300 shadow-sm focus:border-black focus:ring-black p-4 text-base"
                   value={formData.email}
                   onChange={handleChange}
                 />
@@ -71,7 +70,7 @@ const ContactForm = () => {
                   id="phone"
                   name="phone"
                   required
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
+                  className="mt-2 block w-full min-w-[300px] rounded-lg border border-gray-300 shadow-sm focus:border-black focus:ring-black p-4 text-base"
                   value={formData.phone}
                   onChange={handleChange}
                 />
@@ -86,7 +85,7 @@ const ContactForm = () => {
                 id="subject"
                 name="subject"
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
+                className="mt-2 block w-full min-w-[300px] rounded-lg border border-gray-300 shadow-sm focus:border-black focus:ring-black p-4 text-base"
                 value={formData.subject}
                 onChange={handleChange}
               >
@@ -104,9 +103,9 @@ const ContactForm = () => {
               <textarea
                 id="message"
                 name="message"
-                rows={4}
+                rows={5}
                 required
-                className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-black focus:ring-black"
+                className="mt-2 block w-full min-w-[300px] rounded-lg border border-gray-300 shadow-sm focus:border-black focus:ring-black p-4 text-base"
                 value={formData.message}
                 onChange={handleChange}
               />
@@ -115,7 +114,7 @@ const ContactForm = () => {
             <div className="flex justify-center">
               <button
                 type="submit"
-                className="inline-flex items-center px-6 py-3 border border-transparent rounded-full shadow-sm text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
+                className="inline-flex items-center px-6 py-3 border border-transparent rounded-full shadow-lg text-white bg-black hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-black"
               >
                 <Send className="w-5 h-5 mr-2" />
                 Enviar Mensagem

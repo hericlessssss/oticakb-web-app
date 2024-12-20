@@ -73,7 +73,8 @@ const Products = () => {
                   <span className="text-2xl font-bold">{product.price}</span>
                   <a
                     href="https://wa.me/5561994070676?text=Olá!%20Eu%20estou%20interessado(a)%20em%20agendar%20um%20exame%20de%20vista%20ou%20saber%20mais%20sobre%20os%20produtos.%20Poderia%20me%20ajudar%3F"
-                    className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-colors"
+                    className="bg-black text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-colors flex justify-center items-center text-center leading-none"
+                    style={{ height: "50px", lineHeight: "1" }}
                   >
                     Ver mais detalhes
                   </a>
