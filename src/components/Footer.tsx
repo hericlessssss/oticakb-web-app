@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center space-y-2">
           <p>&copy; {new Date().getFullYear()} Óticas KB. Todos os direitos reservados.</p>
-          <p>Desenvolvido por <strong>Labora Design</strong></p>
+          <p>Desenvolvido por <strong>Labora Tech</strong></p>
         </div>
       </div>
 
